@@ -1,0 +1,122 @@
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "layout";
+@import "Glyphter";
+
+// /* Components */
+// @import "components/form/field";
+
+// /* Sections */
+// @import "section/registration_form";
+
+// /* Pages / Views */
+// @import "pages/registration";
+
+// testowe dla styleguide.html:
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;  /*Full-height: remove this if you want "auto" height */
+  width: 180px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;  /*Stay on top */
+  top: 0;  /*Stay at the top */
+  left: 0;
+  background-color: #111; /* Black #111*/
+  overflow-x: hidden;  /*Disable horizontal scroll */
+  padding-top: 15px;
+//   border: 10px solid red;
+
+    & .logo-span {
+    // border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    & h1{
+    // font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 30px;
+    padding-right: 30px; 
+    padding-left: 10px; 
+    display: inline;
+    // padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+}
+
+/* The topbar menu */
+.topbar {
+  height: 100px;  /*Full-height: remove this if you want "auto" height */
+  width: 100%;  /*Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;  //Stay on top
+  top: 0;  /*Stay at the top */
+  left: 180px;
+  /* background-color: #111; Black */
+  /*overflow-x: hidden;  Disable horizontal scroll */
+  padding-top: 15px;
+  border: 2px solid blue;
+}
+
+.main-window{
+  height: 100%;  /*Full-height: remove this if you want "auto" height */
+  width: 100%; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  /*z-index: 1;  Stay on top */
+  /*top: 0;  Stay at the top */
+  left: 160px;
+  top: 100px;
+  /* background-color: #111; Black */
+  /*overflow-x: hidden;  Disable horizontal scroll */
+  padding-top: 10px;
+  border: 2px solid red;
+}
+
+.component-icon{
+    color: lightgrey;
+    font-size: 25px;
+    display: inline;
+    // margin-right: -5px;
+}
+
+.component-button-href{
+    color: lightgrey;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+    // background-color: green;
+    padding: 5px;
+    width: 100%;
+    // display: inline;
+    // min-width: 100%;
+
+    & a{
+        text-decoration: none;
+        color: lightgrey;
+    font-size: 18px;
+    // display: inline;
+    width: 100%;
+    //  margin-top: 10px;
+    display: block;
+    }
+
+    & .button-icon {
+        width: 20px;
+        height: 22px;
+        color: lightgray;
+        size: 18px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 4px;
+filter: invert(83%) sepia(78%) saturate(0%) hue-rotate(202deg) brightness(93%) contrast(85%);
+        &:hover{
+            color: red;
+        }
+    }
+}
+
+
+
+

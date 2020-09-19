@@ -1,0 +1,34 @@
+ <!-- STARE -->
+    <!-- main container for holding whole of the page -->
+    <section class="main-container">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-1">
+                <!-- <h1>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy</h1> -->
+                <!-- Side navigation -->
+                <div class="sidenav">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="col-11">
+                <div class="container m-0 p-0">
+                    <!-- <h1>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy</h1> -->
+                    <nav class="navbar sticky-top navbar-light bg-light m-0 p-0">
+                        <a class="navbar-brand" href="#">Fixed top</a>
+                    </nav>
+                </div>
+                <div class="container m-0 p-0">
+                    <section class="component-section">
+                        <h1>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhy</h1>
+                        <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbb</h1>
+                    </section>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- </div> -->
+        </div>
+    </section>
